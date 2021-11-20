@@ -1,23 +1,16 @@
 import styled from 'styled-components'
 
+export const GameDisplayContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+`
+
 export const RPSContainer = styled.div`
   padding-bottom: 32px;
   padding-top: 32px;
   display: flex;
   flex-direction: column;
-`
-export const GameContainer = styled.div`
-  margin: auto;
-  margin: 32px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-`
-
-export const Image = styled.img`
-  max-width: 175px;
-  max-height: 175px;
 `
 
 export const GamesHeading = styled.h1`
@@ -31,11 +24,4 @@ export const GamesHeading = styled.h1`
   @media screen and (min-width: 768px) {
     font-size: 32px;
   }
-`
-
-export const Button = styled.button`
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-  flex: 1;
 `

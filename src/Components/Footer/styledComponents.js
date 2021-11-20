@@ -1,5 +1,10 @@
 import styled from 'styled-components'
 
+export const FooterContainer = styled.div`
+  align-self: flex-end;
+  transform: translateY(5rem);
+`
+
 export const RulesButtonContainer = styled.div`
   padding: 10px;
   display: flex;

@@ -4,3 +4,14 @@
   height: 460px;
   border-radius: 16px;
 }
+
+.icon-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  flex: 1;
+}
+
+.icon-button:hover {
+  transform: scale(1);
+}

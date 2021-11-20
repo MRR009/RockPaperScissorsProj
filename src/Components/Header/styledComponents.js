@@ -8,7 +8,9 @@ export const HeaderContainer = styled.div`
   padding: 10px;
 `
 
-export const HeadingContainer = styled.div``
+export const HeadingContainer = styled.div`
+  text-align: left;
+`
 export const Heading = styled.h1`
   color: #ffffff;
   font-size: 28px;
